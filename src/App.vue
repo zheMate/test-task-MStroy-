@@ -1,8 +1,23 @@
+<script setup lang="ts">
+import TreeTable from './components/TreeTable.vue'
+</script>
+
 <template>
   <div id="app">
-    <h1>MStroy TreeStore</h1>
+    <TreeTable />
   </div>
 </template>
 
-<script setup lang="ts">
-</script>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  padding: 24px;
+  background: #fff;
+  min-height: 100vh;
+}
+</style>
